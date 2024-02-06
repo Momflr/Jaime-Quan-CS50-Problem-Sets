@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: It takes the least time in going through the sorted numbers which makes sense if it's bubble sort since its omega of n.
+
+sort2 uses: Merge sort
+
+How do you know?: It goes through the 50000 number long randomized order the fastest.
+
+sort3 uses: Selection sort
+
+How do you know?: It's consistent in how long it takes to go through the numbers no matter the order of the least which makes sense since selection sort is theta of n squared.
