@@ -11,11 +11,14 @@ int main(void)
     int r;
     int x;
     // get the height
-        height = get_int("Height: ");
+
+    do
+    height = get_int("Height (1-8): ");
+    while (height <= 1 || height >= 8);
 
     // ignore the rest BOOM RECURSIVE FUNCTION
-    stairs(height);
-    return 0;
+    // stairs(height);
+    // return 0;
     // calculate and print pyramid
     for (r = height; r > 0; r--)
     {
